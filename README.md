@@ -16,7 +16,7 @@ import IconFont from '@jayson991/react-iconfont';
 
 ### Source Support
 
-- [Icomoon][https://icomoon.io/]
+- [Icomoon](https://icomoon.io/)
 - [Iconfont](https://www.iconfont.cn/)
 
 ### Method Support
