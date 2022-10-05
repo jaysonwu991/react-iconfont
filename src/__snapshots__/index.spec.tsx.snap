@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconFont should render successfully when it is icon 1`] = `
+<DocumentFragment>
+  <span
+    style="margin: 0px; padding: 0px;"
+  >
+    <span
+      class="iconfont icon-node.js"
+    />
+  </span>
+</DocumentFragment>
+`;
+
+exports[`IconFont should render successfully when it is svg symbol 1`] = `
+<DocumentFragment>
+  <span
+    style="margin: 0px; padding: 0px;"
+  >
+    <svg
+      aria-hidden="true"
+      style="width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden;"
+    >
+      <use
+        xlink:href="#icon-node.js"
+      />
+    </svg>
+  </span>
+</DocumentFragment>
+`;
