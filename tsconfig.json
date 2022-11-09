@@ -22,7 +22,8 @@
     "isolatedModules": true
   },
   "include": [
-    "src"
+    "src",
+    ".storybook"
   ],
   "exclude": [
     "src/**/*.spec.tsx"

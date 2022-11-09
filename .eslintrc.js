@@ -15,7 +15,7 @@ module.exports = {
     },
   },
   plugins: ['@typescript-eslint', 'react', 'prettier'],
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier/prettier'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier/prettier', 'plugin:storybook/recommended'],
   settings: {
     react: {
       version: 'detect',
@@ -36,25 +36,22 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'array-callback-return': 2,
     'consistent-return': 2,
-    'comma-spacing': [2, { before: false, after: true }],
-    'comma-dangle': [
-      2,
-      {
-        arrays: 'always-multiline',
-        exports: 'always-multiline',
-        functions: 'never',
-        imports: 'always-multiline',
-        objects: 'always-multiline',
-      },
-    ],
-    'no-unused-vars': [
-      1,
-      {
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        ignoreRestSiblings: true,
-      },
-    ],
+    'comma-spacing': [2, {
+      before: false,
+      after: true,
+    }],
+    'comma-dangle': [2, {
+      arrays: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+      imports: 'always-multiline',
+      objects: 'always-multiline',
+    }],
+    'no-unused-vars': [1, {
+      args: 'after-used',
+      argsIgnorePattern: '^_',
+      varsIgnorePattern: '^_',
+      ignoreRestSiblings: true,
+    }],
   },
 };
